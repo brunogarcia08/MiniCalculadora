@@ -1,0 +1,69 @@
+body{
+  background-color:rgba(242, 189, 74, 0.939);
+  display:flex;
+  justify-content:center;
+  margin:20px 0;
+  color: black;
+}
+.boxCalculator{
+  width:90%;
+  background-color:rgb(226, 221, 221);
+  padding:30px;
+  border-radius:10px;
+}
+p{
+  font-size:18px;
+  color:rgba(62, 55, 55, 0.836);
+}
+.boxResults{
+  text-align: center;
+}
+.account{
+  color:rgba(255, 174, 0, 0.864);
+}
+.tip{
+  color:rgb(30, 88, 223);
+}
+.accountTotal{
+  color:rgb(238, 8, 0);
+}
+.customerChange{
+color:rgb(97, 159, 10);
+}
+input{
+  background-color: rgba(138, 137, 137, 0.2);
+  color:black;
+  font-weight: bold;
+}
+button{
+  float:right;
+  margin-right:0px;
+  border:none;
+  padding:10px;
+  background-color:rgb(240, 161, 16);
+  font-size: 16px;
+  border-radius: 10px;
+  cursor:pointer;
+  color:white;
+  font-weight:bold;
+  transition:1s;
+}
+button:hover{
+  background-color:rgb(201, 136, 15);
+}
+@media only screen and (max-width:724px){
+  .boxCalculator{
+      width: 90%;
+  }  
+  .title{
+      font-size:20px;
+  }
+  input:nth-of-type(3){
+      margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width:400px){
+  .boxCalculator{
+      width: 80%;
+  }  
+} 
